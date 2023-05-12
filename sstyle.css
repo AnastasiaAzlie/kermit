@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.about{
+    padding: 100px;
+    background: #A9BA9D;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0)),url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content h1{
+    font-size: 70px !important;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100 !important;
+    line-height: 25px;
+}
+
+.btn{
+    position: relative;
+    background: #fff !important;
+    display: inline-block;
+    color: #111;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 10px !important;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    background: #A9BA9D !important;
+    border: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: white;
+    font-size: 24px;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 0.5s;
+}
+
+header.sticky{
+    background: #A9BA9D;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+header.sticky .logo{
+    color: #111;
+
+}
+
+header.sticky ul li a{
+    color: #111;
+    
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+.heading p{
+    font-size: 30px !important;
+}
+
+h2{
+    font-weight: 600 !important;
+    font-style: 30px !important;
+}
+
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentbx{
+    padding-right: 30px;
+}
+
+.contentbx h3{
+    font-size: 24px !important;
+    margin-bottom: 10px;
+}
+.contentbx p{
+    line-height: 1.6;
+}
+.about .contentt{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.about .contentt .gallerybx{
+    border-radius: 10px;
+    padding: 40px 20px;
+    background: #222;
+    color: white;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+.about .contentt .gallerybx img{
+    border-radius: 10px;
+}
+
+.about .contentt .gallerybx:hover{
+    background: #ffffff;
+    color: black;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.w50{
+    min-width: 50%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.family{
+    padding: 100px;
+    background: #222;;
+}
+
+.heading.white{
+    color: white;
+}
+
+.family .contents{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.family .contents .familybx{
+    padding: 40px 20px;
+    background: #222;
+    color: white;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.family .contents .familybx:hover{
+    background: #2196f3;
+}
+
+.interest{
+    padding: 100px;
+    background: #A9BA9D;
+}
+
+.heading.white{
+    color: white;
+}
+
+.interest .contents .edit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.204),rgba(0, 0, 0, 0.211)),url(img/bg2.JPG) center/cover no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.interest .contents .adc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.204),rgba(0, 0, 0, 0.211)),url(img/bgp.jpeg) center/cover no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.interest .contents .shows{
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.204),rgba(0, 0, 0, 0.211)),url(img/bg3.png) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.interest .contents .interestbx{
+    padding: 40px 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+}
+
+.interestbx img{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.interest .contents .subjbx{
+    padding: 40px 20px;
+    background: rgb(202, 191, 246);
+    border-radius: 20px;
+    color: black;
+    max-width: 540px;
+    margin: 20px;
+    text-align: center;
+}
+
+.subjbx img{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.formbx{
+    min-width: 50%;
+}
+
+.formbx form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formbx form h3,
+.contactInfo h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contactInfo p{
+    color: white;
+}
+
+.formbx form input,
+.formbx form textarea,
+.formbx form .fields{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+}
+
+.contact{
+    padding: 100px;
+    background: #111;
+}
+
+label{
+    color: white;
+    display: inline;
+}
+.flexx{
+    color: white;
+    display: inline;
+}
+
+.buttn{
+    background: #222;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.buttn:hover{
+    background: #A9BA9D;
+    color: black;
+}
+
+footer{
+    background: #A9BA9D;;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+.footer-content{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.socials a i{
+    font-size: 1.1rem; 
+    transition: color .4s ease; 
+}
+
+.socials a:hover i{
+    color:rgb(255, 255, 255)
+}
+
+.footer-bottom{
+    background: rgba(0, 0, 0, 0);
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+.banner-v2 .heading h2{
+    font-weight: 600 !important;
+    color: white;
+}
+.interest .banner-v2 {
+    width: 100%;
+    float: left;
+    position: relative;
+    /* margin: 20px 0 40px 0; */
+    min-height: 350px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.204),rgba(0, 0, 0, 0.211)),url(img/bg2.JPG) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.contents .edit{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.204),rgba(0, 0, 0, 0.211)),url(img/bg2.JPG) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.tble{
+    margin-left: auto !important;
+    margin-left: auto !important;
+    border: 1px solid black !important;
+}
+
+table tr td{
+    text-align: center;
+}
